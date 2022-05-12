@@ -1,0 +1,636 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "bf8c4c4f",
+   "metadata": {},
+   "source": [
+    "Nama : Ananda Putra Jun Askara\n",
+    "Kelas : Ragnarok\n",
+    "Universitas : Bina Nusantara"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "80f31859",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello World!\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hello World!\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "b3bb88a6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello\n",
+      "\n",
+      "This is a strong\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('hello')\n",
+    "print()\n",
+    "print('This is a strong')\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "2180f183",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Tokyo\n",
+      "<class 'str'>\n",
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "s = 'Tokyo'\n",
+    "print(s)\n",
+    "print(type(s))\n",
+    "print(len(s))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "2b892236",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello World\n",
+      "\n",
+      "e\n",
+      "\n",
+      "l\n"
+     ]
+    }
+   ],
+   "source": [
+    "s = 'Hello World'\n",
+    "\n",
+    "print(s)\n",
+    "print()\n",
+    "\n",
+    "print(s[1])\n",
+    "print()\n",
+    "\n",
+    "print(s[2])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "052af8cf",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello World\n"
+     ]
+    }
+   ],
+   "source": [
+    "s1 = 'Hello'\n",
+    "s2 = \"World\"\n",
+    "print(s1 + \" \" + s2)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "42855194",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello_Hello_Hello_\n",
+      "----------\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hello_\" * 3)\n",
+    "print(\"-\" * 10)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "8e05620c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "N\n",
+      "rld\n",
+      " Worl\n",
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "s = \" New World\"\n",
+    "\n",
+    "print(s[1])\n",
+    "print(s[7:11])\n",
+    "print(s[-6:-1])\n",
+    "\n",
+    "print(\"Wor\" in s)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "5ed0184f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "My name is Raymond, my age is 23, and it is True that I am married\n",
+      "My name is Raymond, my age is 23, and it is True that I am married\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = \"Raymond\"\n",
+    "age = 23\n",
+    "married = True\n",
+    "print(\"My name is %s, my age is %s, and it is %s that I am married\" % (name, age, married))\n",
+    "print(\"My name is {}, my age is {}, and it is {} that I am married\".format(name, age, married))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "bc211429",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "4\n",
+      "2\n",
+      "4\n",
+      "1.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(3+1)\n",
+    "\n",
+    "print(3-1)\n",
+    "\n",
+    "print(2*2)\n",
+    "\n",
+    "print(3/3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "1f48b35a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "2**3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "0e8e0cb3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "105"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "2 + 10 * 10 + 3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "5b8a9fd7",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "168"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "(2+10) * (10+4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "15b9c314",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = 5\n",
+    "\n",
+    "a+a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "a318b3ec",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = 10 \n",
+    "\n",
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "67d0c7e0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "<class 'int'>\n",
+      "<class 'float'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 42\n",
+    "b = 32.30\n",
+    "print(type(a))\n",
+    "print(type(b))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "ccb2da11",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "my_list = [1,2,3]\n",
+    "\n",
+    "my_list = ['A string',23,100.232,'o']\n",
+    "len(my_list)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "c9ee7ce7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1, 2.3, ['a', 'b'], 'Tokyo', 3.1]\n"
+     ]
+    }
+   ],
+   "source": [
+    "my_list = ['one','two','three',4,5]\n",
+    "\n",
+    "l = [1, 2.3, ['a', 'b'], 'Tokyo']\n",
+    "l.append(3.1)\n",
+    "print(l)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "90c2c7d0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1, 2, 3, 4, 5, 6]\n"
+     ]
+    }
+   ],
+   "source": [
+    "l = [1, 2, 3]\n",
+    "l.extend([4, 5, 6])\n",
+    "print(l)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "63544d05",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]\n",
+      "elements from index 4 to 7: [4, 5, 6]\n",
+      "alternate elements, starting at index 0: [0, 2, 4, 6, 8, 10, 12, 14]\n",
+      "every third element, starting at index 1: [1, 4, 7, 10, 13]\n"
+     ]
+    }
+   ],
+   "source": [
+    "lst = list(range(15)) \n",
+    "\n",
+    "print(lst)\n",
+    "print(\"elements from index 4 to 7:\", lst[4:7])\n",
+    "print(\"alternate elements, starting at index 0:\", lst[0::2])\n",
+    "\n",
+    "print(\"every third element, starting at index 1:\", lst[1::3]) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "3eb9fb47",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'value2'"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "my_dict = {'key1':'value1','key2':'value2'}\n",
+    "\n",
+    "my_dict['key2']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "42b7e8f3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "my_dict['key1']=125\n",
+    "my_dict\n",
+    "{'key1': 123, 'key2': 'value2'}\n",
+    "\n",
+    "my_dict['key1'] = my_dict['key1'] - 125\n",
+    "my_dict['key1']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "1d1adea9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "-125"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "my_dict['key1'] -=125\n",
+    "my_dict['key1']"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "157be365",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d = {}\n",
+    "\n",
+    "d[\"animal\"] = 'Cat'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "9280afe1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{1}"
+      ]
+     },
+     "execution_count": 26,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x = set()\n",
+    "\n",
+    "x.add(1)\n",
+    "x\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "b88e6acc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{1, 2, 4}"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x.add(2)\n",
+    "\n",
+    "x\n",
+    "{1, 2}\n",
+    "\n",
+    "x.add(1)\n",
+    "\n",
+    "x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "5e9dd9ca",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{1, 2, 3, 4, 5, 6}"
+      ]
+     },
+     "execution_count": 42,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\n",
+    "l = [1,1,2,2,3,4,5,6,1,1]\n",
+    "    \n",
+    "set(l)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3cd17dcc",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
